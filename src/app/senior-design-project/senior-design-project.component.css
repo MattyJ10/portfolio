@@ -1,0 +1,189 @@
+a {
+	color: #8C2336;
+}
+
+a:visited {
+	color: #8C2336;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #C9CFA0;
+}
+
+.background {
+	background-color: #8C2336;
+}
+
+.projectContainer {
+	margin:0px auto;
+	background-color: white;
+	margin-top: 80px;
+	text-align: center;
+	width: 90%;
+	border-right: 2px solid #C9CFA0;
+	border-left: 2px solid #C9CFA0;
+}
+
+.rList {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.date {
+	font-size: 25px; 
+}
+
+.techIcons {
+	width: 100%;
+	margin:0px auto;
+}
+
+.line {
+	width: 80%;
+	margin: 0px auto;
+	background-color: #8C2336;
+	height: 5px;
+}
+
+.screenshot {
+	width: 200px;
+	border: 3px solid #C9CFA0;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 2px;
+}
+
+.description {
+	width: 70%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.projectTitle {
+	text-align: center;
+	font-size: 60px;
+	color: #8C2336;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.text {
+	text-align: justify;
+	border-left: 2px solid #8C2336;
+}
+
+.text p {
+	padding-left: 20px;
+	margin-top: 1px;
+	font-size: 20px;
+}
+
+.icon {
+	width: 100px;
+	vertical-align: middle;
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.mongo {
+	width: 200px;
+}
+
+.python {
+	width: 90px;
+}
+
+.angular {
+	width: 90px;
+}
+
+.reflection {
+	padding-bottom: 20px;
+}
+
+.header {
+	margin-bottom: 2px;
+	font-size: 45px;
+	color: #8C2336;
+}
+
+.subHeader {
+	
+	width: 75%;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	font-size: 22px;
+	border-left: 2px solid black;
+	text-align: justify;
+}
+
+.gray {
+	background-color: #e0e0e0;
+}
+
+.feature {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.featurePic {
+	width: 45%;
+	display: inline-block;
+	border: 10px solid grey;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border-style: inset;
+}
+
+.leftPic {
+	margin-left: 30px;
+}
+
+.rightPic {
+	margin-right: 30px;
+}
+
+.noMargin p{
+	margin:0px auto;
+}
+
+i {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	font-size: 50px;
+	color: #C9CFA0;
+}
+
+.featureDesc {
+
+	width: 70%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.rightText {
+	margin-left: 20px;
+}
+
+.leftText {
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+.reflectionTopic {
+	padding-left: 20px;
+	font-size: 28px;
+	color: #C9CFA0;
+	margin-bottom: 1px;
+}

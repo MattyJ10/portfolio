@@ -1,0 +1,165 @@
+a {
+	color: #2B436A;
+}
+
+a:visited {
+	color: #2B436A;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #CACFA5;
+}
+
+.background {
+	background-color: #2B436A;
+}
+
+.projectContainer {
+	margin:0px auto;
+	background-color: white;
+	margin-top: 80px;
+	text-align: center;
+	width: 90%;
+	border-right: 2px solid grey;
+	border-left: 2px solid grey;
+}
+
+.date {
+	font-size: 25px; 
+}
+
+.screenshot {
+	width: 200px;
+	border: 3px solid #2B436A;
+	padding: 2px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.description {
+	width: 70%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.reflection {
+	padding-bottom: 20px;
+}
+
+.projectTitle {
+	text-align: center;
+	font-size: 60px;
+	color: #2B436A;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.text {
+	text-align: justify;
+	border-left: 2px solid #2B436A;
+}
+
+.text p {
+	padding-left: 20px;
+	font-size: 20px;
+	margin-top: 1px;
+}
+
+.icon {
+	width: 100px;
+	vertical-align: middle;
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.mongo {
+	width: 200px;
+}
+
+.angular {
+	width: 90px;
+}
+
+.header {
+	margin-bottom: 2px;
+	font-size: 45px;
+	color: #2B436A;
+}
+
+.subHeader {
+	
+	width: 75%;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	font-size: 22px;
+	border-left: 2px solid black;
+	text-align: justify;
+}
+
+.gray {
+	background-color: #e0e0e0;
+}
+
+.feature {
+	text-align: center;
+}
+
+.featurePic {
+	width: 45%;
+	display: inline-block;
+	border: 1px solid black;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.leftPic {
+}
+
+.rList {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.rightPic {
+}
+
+i {
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	font-size: 50px;
+	color: #2B436A;
+}
+
+.featureDesc {
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 25px;
+
+}
+
+.rightText {
+	margin-left: 20px;
+}
+
+.leftText {
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+.blue {
+	color: #2B436A;
+}
+
+.reflectionTopic {
+	padding-left: 20px;
+	font-size: 28px;
+	color: #CACFA5;
+	margin-bottom: 1px;
+}

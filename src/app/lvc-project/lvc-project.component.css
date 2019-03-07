@@ -1,0 +1,161 @@
+a {
+	color: #6FB2D4;
+}
+
+a:visited {
+	color: #6FB2D4;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #302159;
+}
+
+.background {
+	background-color: #302159;
+}
+.rList {
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+.projectContainer {
+	margin:0px auto;
+	background-color: white;
+	margin-top: 80px;
+	text-align: center;
+	width: 90%;
+	border-right: 2px solid grey;
+	border-left: 2px solid grey;
+}
+
+.date {
+	font-size: 25px; 
+}
+
+.screenshot {
+	width: 200px;
+	border: 3px solid #3e2a72;
+	padding:3px;
+	margin-top: 20px;
+	border-radius: 20px;
+}
+
+.description {
+	width: 70%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.projectTitle {
+	text-align: center;
+	font-size: 60px;
+	color: #6FB2D4;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.text {
+	text-align: justify;
+	border-left: 2px solid #302159;
+}
+
+.text p {
+	margin-top: 1px;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.reflection {
+	padding-bottom: 20px;
+}
+
+.icon {
+	width: 100px;
+	vertical-align: middle;
+	margin-left: 5px; 
+	margin-right: 5px;
+}
+
+.mongo {
+	width: 150px;
+}
+
+.angular {
+	width: 90px;
+}
+
+.header {
+	margin-bottom: 2px;
+	font-size: 45px;
+	color: #6FB2D4;
+}
+
+.subHeader {
+	
+	width: 75%;
+	text-align: center;
+	margin: 0px auto;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	font-size: 22px;
+	border-left: 2px solid black;
+	text-align: justify;
+}
+
+.gray {
+	background-color: #e0e0e0;
+}
+
+.feature {
+	text-align: center;
+}
+
+.featurePic {
+	width: 45%;
+	display: inline-block;
+	border: 2px solid black;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border-style: inset;
+}
+
+.leftPic {
+}
+
+.rightPic {
+}
+
+i {
+	text-align: center;
+	margin: 0px auto;
+	display: block;
+	font-size: 50px;
+	color: #6FB2D4;
+}
+
+.featureDesc {
+	width: 45%;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 25px;
+
+}
+
+.rightText {
+	margin-left: 20px;
+}
+
+.leftText {
+	margin-right: 20px;
+	margin-left: 30px;
+}
+
+.reflectionTopic {
+	padding-left: 20px;
+	font-size: 28px;
+	color: #302159;
+	margin-bottom: 1px;
+}

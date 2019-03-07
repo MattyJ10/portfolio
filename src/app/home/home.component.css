@@ -1,0 +1,332 @@
+a {
+	color: #ff7256;
+}
+
+a:visited {
+	color: #ff7256;
+}
+
+a:hover {
+	cursor: pointer;
+	color: #2d2d2d;
+}
+
+.pageContainer {
+	width: 100%;
+	height: 100%;
+}
+
+.smallText {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.dark {
+	background-color: #2d2d2d;
+}
+
+.imageBanner {
+	width: 100%;
+	height: 100vh;
+}
+
+.down {
+	background-color: transparent;
+	border:none;
+	font-size: 40px;
+	color: white;
+}
+
+.down:hover {
+	cursor: pointer;
+	color: #ff7256;
+}
+
+.down:focus {
+	outline: none;
+}
+
+.bg {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.section {
+	margin-top: 0px;
+	display: block;
+}
+
+.profPic {
+	width: 200px;
+	border-radius: 5px;
+}
+
+.description {
+	color: white;
+	text-align: center;
+	font-family: Courier New;
+	position: absolute;
+	width: 100%;
+	top: 70%;
+	left: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.arrowDown {
+	color: white;
+	text-align: center;
+	font-family: Courier New;
+	position: absolute;
+	top: 93%;
+	left: 50%;
+}
+
+.description h3 {
+	margin:0px auto;
+	font-weight: lighter;
+	font-size: 70px;
+}
+
+.description h4 {
+	margin-top: 5px;
+	margin-bottom: 0px;
+	font-size: 30px;
+	color: #73a2ef;
+	font-weight: lighter;
+}
+
+.description i {
+	color: #ff7256;
+	margin-top: 0px;
+}
+
+.bannerButton {
+	background-color: transparent;
+	font-size: 70px;
+	margin-right: 30px;
+	color:#515151;
+	border:none;
+	border-bottom: 2px solid #515151;
+
+}
+
+.bannerButton:hover {
+	cursor: pointer;
+	opacity: 1;
+	color: white;
+	border-bottom: 2px solid white;
+}
+
+.icons {
+	display: inline-block;
+	margin: 0px auto;
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.left {
+	float: left;
+	padding-left: 180px;
+}
+
+.right {
+	float: right;
+	padding-right: 180px;
+}
+
+.icon {
+	width: 100px; 
+	height: 100px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: .5;
+}
+
+.icon:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.textContainer {
+	text-align: left;
+	margin:0px auto; 
+	width: 60%;
+}
+
+.sectionTitle {
+	font-size: 50px; 
+	color: #ff7256;
+	margin-bottom: 2px;
+	font-family: Courier New;
+}
+
+.alignLeft {
+	text-align: left;
+}
+
+.center {
+	text-align: center;
+}
+
+.text {
+	text-align: left;
+	border-left: 2px solid grey;
+	padding-left: 20px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.projectLinkContainer {
+	text-align: center;
+	margin: 0px auto;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+.pushDown {
+	padding-top: 30px;
+}
+
+.picAndCaption {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 20px;
+	width:300px;
+	height: 300px;
+	margin: 0px auto;
+	margin-right: 40px;
+	transition: all .25s ease-in-out;
+	/*border: 5px solid white;*/
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.caption {
+	color: white;
+	position: relative; 
+	top:35%;
+	left: 50%;
+	font-size: 40px;
+	transform: translate(-50%, -50%);
+}
+
+.LAREM {
+	background-image: url("../../assets/images/LAREM.jpg");
+	background-repeat: no-repeat;
+	opacity: .7;
+	background-size: contain;
+}
+
+.LAREM:hover, .LVC:hover, .SCU:hover {
+	opacity: 1;
+	cursor: pointer;
+	width: 320px;
+	height: 320px;
+}
+
+.LVC {
+	background-image: url("../../assets/images/LVC.jpg"); 
+	background-repeat: no-repeat;
+	opacity: .5;
+	background-size: contain;
+}
+
+.SCU {
+	background-image: url("../../assets/images/SCU.jpg"); 
+	background-repeat: no-repeat;
+	opacity: .5;
+	background-size: contain;
+}
+
+.highlights {
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px; 
+	border-radius: 10px;
+}
+
+.pictureRotation {
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	margin-right: 20px;
+	width: 500px;
+}
+
+.slidePic {
+	height: 500px;
+	border-radius: 10px;
+	animation-duration: .5s;
+  	animation-name: slidein;
+	maxwidth: 500px;
+}
+
+.info {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ff7256;
+	margin-top:2px;
+}
+
+.media {
+	text-align: center;
+}
+
+.slideButton {
+	font-size: 20px; 
+	background-color: white;
+	color: black;
+	border: none;
+	border-bottom: 2px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.slideOps {
+}
+
+.slideButton:hover {
+	cursor:pointer;
+	background-color: #ff7256;
+}
+
+.slideButton:focus {
+	outline: none;
+}
+
+.contacts {
+	text-align: center;
+}
+
+.contactInfo {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	margin-left: 20px;
+	color: white;
+}
+
+.contactInfo p {
+
+	margin-top: 2px; 
+	margin-bottom: 2px;
+	font-size: 20px;
+}
+
+.alignMid {
+	text-align: center;
+	vertical-align: middle;
+}

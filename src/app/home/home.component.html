@@ -1,0 +1,102 @@
+<div class="pageContainer">
+	<div class="imageBanner">
+		<img class="bg" src="../../assets/images/sunset.jpeg">
+		<div class="description">
+			<h3 class="name">Matt Jasaitis</h3>
+			<h4 class="location"><i class="fas fa-map-marker-alt"></i> Manhattan Beach, CA</h4>
+		</div>
+		<div class="arrowDown">
+			<button (click)="scrollDown()" class="down"><i class="fas fa-angle-down"></i></button>
+		</div>
+	</div>
+	<div id="about" class="section">
+		<div class="textContainer">
+			<h2 class="sectionTitle alignLeft">About</h2>
+			<div class="text">
+				<p>I am currently a student at Santa Clara University studying Computer Science and Engineering expected to graduate in June 2019. I am a former student athlete and played four years of college basketball. I transferred from Grinnell College to Santa Clara after my sophomore year and am now finishing up my degree in my fifth year of school.</p>
+				<p>I have been working in freelance web development for almost two years. Some of my work can be found in the <a href="#projects">Projects</a> section below as well as on <a href="https://github.com/mattyj10" target="_blank">GitHub</a>.</p>
+				<p>I am seeking employment for an entry-level Software Engineering position.</p>
+			</div>
+		</div>
+	</div>
+	<div id="projects" class="section dark">
+		<h2 class="sectionTitle center pushDown">Featured Projects</h2>
+		<div class="projectLinkContainer">
+			<div (click)="nav('larem')" class="picAndCaption LAREM">
+				<p class="caption">LAREM</p>
+			</div>
+			<div (click)="nav('lvc')" class="picAndCaption LVC">
+				<p class="caption">IAmLVC</p>
+			</div>
+			<div (click)="nav('seniorDesign')" class="picAndCaption SCU">
+				<p class="caption">Senior Project</p>
+			</div>
+		</div>
+	</div>
+	<div class="section">
+		<div class="textContainer">
+			<h2 class="sectionTitle alignLeft">Basketball</h2>
+			<div class="text">
+				<p>I played two years of NCAA Division III basketball at a small school called Grinell College. It was a great experience but I had set a goal for myself to play Division I basketball</p>
+				<p> After my sophomore season, I took a chance and risked my last two years of college basketball by transferring to Santa Clara University and attempting to walk-on. I ended up making the team and played for two years.</p>
+				<p>Below are some of my favorite pictures from this basketball journey as well as some highlights from my first two years playing at Grinnell.</p>
+			</div>
+		</div>
+		<div class="media">
+			<div class="pictureRotation">
+				<div *ngIf="activePic == 0" class="image">
+					<img class="slidePic" src="../../assets/images/scubball2.png">
+					<div class="slideOps">
+						<p class="info">Santa Clara In-Game</p>
+						<button (click)="decrementPic()" class="slideButton">< Prev</button>
+						<button (click)="incrementPic()" class="slideButton">Next ></button>
+					</div>
+				</div>
+				<div *ngIf="activePic == 1" class="image">
+					<img class="slidePic" src="../../assets/images/scubball1.jpg">
+					<div class="slideOps">
+						<p class="info">Santa Clara Media Day</p>
+						<button (click)="decrementPic()" class="slideButton">< Prev</button>
+						<button (click)="incrementPic()" class="slideButton">Next ></button>
+					</div>
+				</div>
+				<div *ngIf="activePic == 2" class="image">
+					<img class="slidePic" src="../../assets/images/GrinnellTeam.jpg">
+					<div class="slideOps">
+						<p class="info">Grinnell Teammates</p>
+						<button (click)="decrementPic()" class="slideButton">< Prev</button>
+						<button (click)="incrementPic()" class="slideButton">Next ></button>
+					</div>
+				</div>
+				<div *ngIf="activePic == 3" class="image">
+					<img class="slidePic" src="../../assets/images/Jonas.jpeg">
+					<div class="slideOps">
+						<p class="info">Workout With Jonas Valanciunas</p>
+						<button (click)="decrementPic()" class="slideButton">< Prev</button>
+						<button (click)="incrementPic()" class="slideButton">Next ></button>
+					</div>
+				</div>
+				
+			</div>
+			<div class="highlights">
+				<iframe class="vid" width="560" height="500" border="0" src="https://www.youtube.com/embed/MrD5IF11hVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<div class="slideOps">
+					<p class="info">Hightlights</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section dark">
+		<div class="contacts">
+			<h2 class="sectionTitle center">Contact</h2>
+			<div class="icons">
+				<a href="https://www.linkedin.com/in/matt-jasaitis-8206b7156/" target="_blank"><img class="icon" src="../../assets/images/linkedIn.png"></a>
+				<a href="https://github.com/mattyj10" target="_blank"><img class="icon" src="../../assets/images/github.png"></a>
+			</div>
+			<div class="contactInfo">
+				<p><i class="fa fa-envelope"></i> Jasaitismatt@yahoo.com</p>
+				<p><i class="fa fa-phone"></i> 310.850.1563</p>
+			</div>
+		</div>
+	</div>
+</div>
