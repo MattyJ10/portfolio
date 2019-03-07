@@ -9,6 +9,9 @@ export class LaremProjectComponent implements OnInit {
 
   constructor() { }
 
+  public imageRoute = "../../portfolio/assets/images/";
+  // public imageRoute = "../../assets/images/"; 
+
   ngOnInit() {
   }
 

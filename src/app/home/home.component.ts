@@ -12,6 +12,9 @@ export class HomeComponent implements OnInit {
 	public activePic = 0; 
 	public numImages = 4; 
 
+  public imageRoute = "../../portfolio/assets/images/";
+  // public imageRoute = "../../assets/images/"; 
+
   	constructor(private router: Router, private scrollAnimate: NgAnimateScrollService) { }
 
   	ngOnInit() {

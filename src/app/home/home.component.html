@@ -1,6 +1,6 @@
 <div class="pageContainer">
 	<div class="imageBanner">
-		<img class="bg" src="../../assets/images/sunset.jpeg">
+		<img class="bg" src={{imageRoute}}sunset.jpeg>
 		<div class="description">
 			<h3 class="name">Matt Jasaitis</h3>
 			<h4 class="location"><i class="fas fa-map-marker-alt"></i> Manhattan Beach, CA</h4>
@@ -45,7 +45,7 @@
 		<div class="media">
 			<div class="pictureRotation">
 				<div *ngIf="activePic == 0" class="image">
-					<img class="slidePic" src="../../assets/images/scubball2.png">
+					<img class="slidePic" src={{imageRoute}}scubball2.png>
 					<div class="slideOps">
 						<p class="info">Santa Clara In-Game</p>
 						<button (click)="decrementPic()" class="slideButton">< Prev</button>
@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<div *ngIf="activePic == 1" class="image">
-					<img class="slidePic" src="../../assets/images/scubball1.jpg">
+					<img class="slidePic" src={{imageRoute}}scubball1.jpg>
 					<div class="slideOps">
 						<p class="info">Santa Clara Media Day</p>
 						<button (click)="decrementPic()" class="slideButton">< Prev</button>
@@ -61,7 +61,7 @@
 					</div>
 				</div>
 				<div *ngIf="activePic == 2" class="image">
-					<img class="slidePic" src="../../assets/images/GrinnellTeam.jpg">
+					<img class="slidePic" src={{imageRoute}}GrinnellTeam.jpg>
 					<div class="slideOps">
 						<p class="info">Grinnell Teammates</p>
 						<button (click)="decrementPic()" class="slideButton">< Prev</button>
@@ -69,7 +69,7 @@
 					</div>
 				</div>
 				<div *ngIf="activePic == 3" class="image">
-					<img class="slidePic" src="../../assets/images/Jonas.jpeg">
+					<img class="slidePic" src={{imageRoute}}Jonas.jpeg>
 					<div class="slideOps">
 						<p class="info">Workout With Jonas Valanciunas</p>
 						<button (click)="decrementPic()" class="slideButton">< Prev</button>
@@ -90,8 +90,8 @@
 		<div class="contacts">
 			<h2 class="sectionTitle center">Contact</h2>
 			<div class="icons">
-				<a href="https://www.linkedin.com/in/matt-jasaitis-8206b7156/" target="_blank"><img class="icon" src="../../assets/images/linkedIn.png"></a>
-				<a href="https://github.com/mattyj10" target="_blank"><img class="icon" src="../../assets/images/github.png"></a>
+				<a href="https://www.linkedin.com/in/matt-jasaitis-8206b7156/" target="_blank"><img class="icon" src={{imageRoute}}linkedIn.png></a>
+				<a href="https://github.com/mattyj10" target="_blank"><img class="icon" src={{imageRoute}}github.png></a>
 			</div>
 			<div class="contactInfo">
 				<p><i class="fa fa-envelope"></i> Jasaitismatt@yahoo.com</p>
