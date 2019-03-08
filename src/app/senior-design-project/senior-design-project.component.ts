@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SeniorDesignProjectComponent implements OnInit {
 
-	public imageRoute = "../../portfolio/assets/images/";
-	// public imageRoute = "../../assets/images/";
+	// public imageRoute = "../../portfolio/assets/images/";
+	public imageRoute = "../../assets/images/";
   constructor() { }
 
   ngOnInit() {

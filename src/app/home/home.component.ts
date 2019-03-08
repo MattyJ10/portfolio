@@ -12,8 +12,8 @@ export class HomeComponent implements OnInit {
 	public activePic = 0; 
 	public numImages = 4; 
 
-  public imageRoute = "../../portfolio/assets/images/";
-  // public imageRoute = "../../assets/images/"; 
+  // public imageRoute = "../../portfolio/assets/images/";
+  public imageRoute = "../../assets/images/"; 
 
   	constructor(private router: Router, private scrollAnimate: NgAnimateScrollService) { }
 
@@ -44,6 +44,9 @@ export class HomeComponent implements OnInit {
 
     scrollDown() {
       this.scrollAnimate.scrollToElement('about', 1500); 
+    }
+    scrollToProjects() {
+      this.scrollAnimate.scrollToElement('projects', 800); 
     }
 
 }
